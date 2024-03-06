@@ -1,4 +1,3 @@
-# Creating Public Route Table for Demo VPC
 resource "aws_route_table" "public-rt" {
   vpc_id = aws_vpc.vpc.id
 
